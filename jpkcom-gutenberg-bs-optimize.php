@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: JPKCom Gutenberg Bootstrap Optimizer
-Plugin URI: https://www.jpkc.com/
+Plugin URI: https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize
 Description: Fixes and optimizes settings for Gutenberg and Bootstrap.
 Version: 1.0.3
 Author: Jean Pierre Kolb <jpk@jpkc.com>
