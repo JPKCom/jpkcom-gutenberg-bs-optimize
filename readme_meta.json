@@ -1,0 +1,18 @@
+{
+  "Author": "Jean Pierre Kolb <jpk@jpkc.com>",
+  "APIDocumentation": "Complete PHPDoc-generated API documentation is available at",
+  "Version": "2.0.3",
+  "Description": "Fixes and optimizes settings for Gutenberg and Bootstrap.",
+  "PluginURI": "https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize",
+  "PluginName": "JPKCom Gutenberg Bootstrap Optimizer",
+  "Contributors": "JPKCom",
+  "Requiresatleast": "6.9",
+  "Testedupto": "7.0",
+  "Stabletag": "2.0.3",
+  "RequiresPHP": "8.3",
+  "License": "GPL-2.0-or-later",
+  "LicenseURI": "https://www.gnu.org/licenses/gpl-2.0.html",
+  "Tags": "Bootstrap, CSS, Optimize, Editor, Gutenberg",
+  "AuthorURI": "https://www.jpkc.com",
+  "_generated": true
+}
