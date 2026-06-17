@@ -3,17 +3,17 @@
 **Plugin Name:** JPKCom Gutenberg Bootstrap Optimizer  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize  
 **Description:** Fixes and optimizes settings for Gutenberg and Bootstrap.  
-**Version:** 2.0.2  
+**Version:** 2.0.3  
 **Author:** Jean Pierre Kolb <jpk@jpkc.com>  
 **Author URI:** https://www.jpkc.com  
 **Contributors:** JPKCom  
 **Tags:** Bootstrap, CSS, Optimize, Editor, Gutenberg  
-**Requires at least:** 6.7  
-**Tested up to:** 6.8  
+**Requires at least:** 6.9  
+**Tested up to:** 7.0  
 **Requires PHP:** 8.3  
-**Stable tag:** 2.0.2  
-**License:** GPL-2.0+  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.txt
+**Stable tag:** 2.0.3  
+**License:** GPL-2.0-or-later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
 Fixes and optimizes settings for Gutenberg and Bootstrap.
 
@@ -21,6 +21,12 @@ Fixes and optimizes settings for Gutenberg and Bootstrap.
 ## Description
 
 Fixes and optimizes settings for Gutenberg and Bootstrap.
+
+
+### Documentation
+
+**API Documentation:** Complete PHPDoc-generated API documentation is available at:
+[https://jpkcom.github.io/jpkcom-gutenberg-bs-optimize/docs/](https://jpkcom.github.io/jpkcom-gutenberg-bs-optimize/docs/)
 
 
 ## Installation
@@ -31,6 +37,14 @@ Fixes and optimizes settings for Gutenberg and Bootstrap.
 
 
 ## Changelog
+
+### 2.0.3
+* Added secure self-hosted plugin updates via GitHub with SHA256 checksum verification
+* Added an automated release workflow (builds the ZIP, generates the manifest and deploys to gh-pages on tag push)
+* Raised the minimum WordPress version to 6.9 and "Tested up to" to WordPress 7.0
+* Switched license metadata to the SPDX identifier `GPL-2.0-or-later` with the HTTPS license URI
+* Added PHPDoc-generated API documentation, built and deployed to gh-pages on release
+* Hardening: enabled `declare(strict_types=1)` and documented the admin-styles callback
 
 ### 2.0.2
 * Tested up to WP v6.8
