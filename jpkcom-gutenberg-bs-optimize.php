@@ -3,7 +3,7 @@
 Plugin Name: JPKCom Gutenberg Bootstrap Optimizer
 Plugin URI: https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize
 Description: Fixes and optimizes settings for Gutenberg and Bootstrap.
-Version: 2.0.5
+Version: 2.0.6
 Author: Jean Pierre Kolb <jpk@jpkc.com>
 Author URI: https://www.jpkc.com
 Contributors: JPKCom
@@ -11,7 +11,7 @@ Tags: Bootstrap, CSS, Optimize, Editor, Gutenberg
 Requires at least: 6.9
 Tested up to: 7.0
 Requires PHP: 8.3
-Stable tag: 2.0.5
+Stable tag: 2.0.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -29,7 +29,7 @@ if ( ! defined( constant_name: 'WPINC' ) ) {
  * @since 2.0.3
  */
 if ( ! defined( 'JPKCOM_GUTENBERG_BS_OPTIMIZE_VERSION' ) ) {
-    define( 'JPKCOM_GUTENBERG_BS_OPTIMIZE_VERSION', '2.0.5' );
+    define( 'JPKCOM_GUTENBERG_BS_OPTIMIZE_VERSION', '2.0.6' );
 }
 
 

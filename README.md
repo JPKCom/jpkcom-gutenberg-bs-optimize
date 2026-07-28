@@ -3,7 +3,7 @@
 **Plugin Name:** JPKCom Gutenberg Bootstrap Optimizer  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize  
 **Description:** Fixes and optimizes settings for Gutenberg and Bootstrap.  
-**Version:** 2.0.5  
+**Version:** 2.0.6  
 **Author:** Jean Pierre Kolb <jpk@jpkc.com>  
 **Author URI:** https://www.jpkc.com  
 **Contributors:** JPKCom  
@@ -11,7 +11,7 @@
 **Requires at least:** 6.9  
 **Tested up to:** 7.0  
 **Requires PHP:** 8.3  
-**Stable tag:** 2.0.5  
+**Stable tag:** 2.0.6  
 **License:** GPL-2.0-or-later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,9 @@ Fixes and optimizes settings for Gutenberg and Bootstrap.
 
 
 ## Changelog
+
+### 2.0.6
+* Added: plugin banners (`assets/banner-1544x500.avif`, `assets/banner-772x250.avif`) — a plain `#3c4955` surface with no lettering. The update manifest already advertised these two URLs, but nothing was published under them, so the plugin card in wp-admin had a broken banner
 
 ### 2.0.5
 * CI: the release step no longer copies the staging directory into itself, so the ZIP has no empty `jpkcom-gutenberg-bs-optimize/jpkcom-gutenberg-bs-optimize/` folder
