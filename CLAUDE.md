@@ -37,7 +37,7 @@ Main file (jpkcom-gutenberg-bs-optimize.php)
 
 | Constant | Value | Purpose |
 |----------|-------|---------|
-| `JPKCOM_GUTENBERG_BS_OPTIMIZE_VERSION` | `'2.0.4'` | Plugin version (sync with header/README/phpdoc.xml) |
+| `JPKCOM_GUTENBERG_BS_OPTIMIZE_VERSION` | `'2.0.5'` | Plugin version (sync with header/README/phpdoc.xml) |
 
 ---
 
