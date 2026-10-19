@@ -3,7 +3,7 @@
 **Plugin Name:** JPKCom Gutenberg Bootstrap Optimizer  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize  
 **Description:** Fixes and optimizes settings for Gutenberg and Bootstrap.  
-**Version:** 2.0.8  
+**Version:** 2.0.9  
 **Author:** Jean Pierre Kolb <jpk@jpkc.com>  
 **Author URI:** https://www.jpkc.com  
 **Contributors:** JPKCom  
@@ -11,9 +11,10 @@
 **Requires at least:** 6.9  
 **Tested up to:** 7.1  
 **Requires PHP:** 8.3  
-**Stable tag:** 2.0.8  
+**Stable tag:** 2.0.9  
 **License:** GPL-2.0-or-later  
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+**Update URI:** https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize
 
 Fixes and optimizes settings for Gutenberg and Bootstrap.
 
@@ -37,6 +38,11 @@ Fixes and optimizes settings for Gutenberg and Bootstrap.
 
 
 ## Changelog
+
+### 2.0.9
+* Security: the plugin header now carries `Update URI: https://github.com/JPKCom/jpkcom-gutenberg-bs-optimize`. Without it, WordPress also asks wordpress.org for updates under this plugin's slug, so a same-named plugin published there with a higher version would be offered as an update of this one. With the header, wordpress.org answers nothing for this plugin and updates come only from this repository
+* Changed: the updater keeps its manifest cache, its failure marker and its fetch lock in site transients. On multisite the network now fetches the manifest once instead of once per site; on a single site nothing changes. The old per-site entries expire on their own within a day
+* Changed: the release workflow downloads phpDocumentor from a fixed GitHub release and verifies its SHA-256 before running it, instead of executing whatever phpdoc.org serves that day. No effect on the shipped plugin
 
 ### 2.0.8
 * Fixed: the update manifest no longer reports `network: true` for this plugin. The generator defaulted a missing `Network:` header to true, while WordPress' own default for a missing header is "not network-only". Metadata only — WordPress derives network-only from the plugin header via `is_network_only_plugin()`, not from the update manifest
